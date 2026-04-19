@@ -96,15 +96,13 @@ int main(){
         printf("Estudiante %d -> Promedio: %.2f | Mayor: %d | Menor: %d\n",
                i + 1, promedioEstudiante[i], altaEstudiante[i], bajaEstudiante[i]);
     }
-    
 
 
+    printf("\n    Resultado por asignatura    \n");
+    for (j = 0; j < 3; j++) {
+        printf("Asignatura %d -> Promedio: %.2f | Mayor: %d | Menor: %d | Aprobados: %d | Reprobados: %d\n",
+               j + 1, promedioAsignatura[j], altaAsignatura[j], bajaAsignatura[j], aprobados[j], reprobados[j]);
+    }
 
-
-
-
+    return 0;
 }
-
-
-
-
