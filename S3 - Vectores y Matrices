@@ -40,3 +40,6 @@ int main(){
        altaEstudiante[i] = notas[i][0];
         bajaEstudiante[i] = notas[i][0];
 
+       for (j = 0; j < 3; j++) {
+            suma = suma + notas[i][j];
+
