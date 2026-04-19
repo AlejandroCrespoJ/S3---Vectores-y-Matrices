@@ -9,7 +9,7 @@ int main(){
     int altaAsignatura[3], bajaAsignatura[3];
     int aprobados[3] = {0, 0, 0};
     int reprobados[3] = {0, 0, 0};
-    int i, j; H
+    int i, j; 
 
 }
 
