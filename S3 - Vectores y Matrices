@@ -34,7 +34,7 @@ int main(){
         printf("\n");
 
         
-        for (i = 0; i < 5; i++) {
+    for (i = 0; i < 5; i++) {
         int suma = 0;
        altaEstudiante[i] = notas[i][0];
         bajaEstudiante[i] = notas[i][0];
@@ -54,7 +54,11 @@ int main(){
        promedioEstudiante[i] = suma / 3.0;
     }
 
-
+    for (j = 0; j < 3; j++) {
+         int suma = 0;
+        altaAsignatura[j] = notas[0][j];
+        bajaAsignatura[j] = notas[0][j];
+    }
 
 }
 
