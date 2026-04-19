@@ -55,10 +55,38 @@ int main(){
     }
 
     for (j = 0; j < 3; j++) {
-         int suma = 0;
+        int suma = 0;
         altaAsignatura[j] = notas[0][j];
         bajaAsignatura[j] = notas[0][j];
+
+        for (i = 0; i < 5; i++) {
+            suma = suma + notas[i][j];
+
+            if (notas[i][j] > altaAsignatura[j]) {
+                altaAsignatura[j] = notas[i][j];
+            }
+
+            if (notas[i][j] < bajaAsignatura[j]) {
+                bajaAsignatura[j] = notas[i][j];
+            }
+
+            if (notas[i][j] >= 6) {
+                aprobados[j] = aprobados[j] + 1;
+            } else {
+                reprobados[j] = reprobados[j] + 1;
+            }
+        }
+
+        promedioAsignatura[j] = suma / 5.0;
     }
+
+    
+    }
+
+
+
+
+
 
 }
 
