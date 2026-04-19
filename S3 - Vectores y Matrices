@@ -1,6 +1,17 @@
 #include <stdio.h>
 
 int main(){
+
+     int notas[5][3];
+    float promedioEstudiante[5];
+    float promedioAsignatura[3];
+    int altaEstudiante[5], bajaEstudiante[5];
+    int altaAsignatura[3], bajaAsignatura[3];
+    int aprobados[3] = {0, 0, 0};
+    int reprobados[3] = {0, 0, 0};
+    int i, j;
+
+
 }
- iniciar
+
 
