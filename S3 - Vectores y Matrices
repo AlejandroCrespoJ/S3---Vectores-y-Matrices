@@ -37,5 +37,6 @@ int main(){
     /* calculos por estudiante */
     for (i = 0; i < 5; i++) {
         int suma = 0;
-
+       altaEstudiante[i] = notas[i][0];
+        bajaEstudiante[i] = notas[i][0];
 
