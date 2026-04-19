@@ -35,6 +35,7 @@ int main(){
 
 }
     /* calculos por estudiante */
+    // *bro yo hago la parte de calculos por asigantura, tu confia, tu sigue haciendo los clauclso pro estudiante*//
     for (i = 0; i < 5; i++) {
         int suma = 0;
        altaEstudiante[i] = notas[i][0];
