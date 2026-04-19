@@ -30,10 +30,8 @@ int main(){
 
             } while (notas[i][j] < 0 || notas[i][j] > 10);
 
-            
-           
-
         }
+        printf("\n");
 
 }
 
