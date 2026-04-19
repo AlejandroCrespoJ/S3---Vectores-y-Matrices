@@ -80,8 +80,9 @@ int main(){
         promedioAsignatura[j] = suma / 5.0;
     }
 
+    printf("\n     Tabla De Notas     \n");
+    printf("Estudiante\tAsignatura 1\tAsignatura 2\tAsignatura 3\n");
     
-    }
 
 
 
