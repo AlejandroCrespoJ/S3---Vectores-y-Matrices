@@ -11,6 +11,10 @@ int main(){
     int reprobados[3] = {0, 0, 0};
     int i, j; 
 
+
+
+       printf("     Registro de Calificaciones     \n");
+    printf("El programa registra 5 estudiantes y 3 asignaturas.\n\n");
 }
 
 
