@@ -47,4 +47,9 @@ int main(){
                 altaEstudiante[i] = notas[i][j];
             }
 
+            if (notas[i][j] < bajaEstudiante[i]) {
+                bajaEstudiante[i] = notas[i][j];
+            }
+        }
+
 
