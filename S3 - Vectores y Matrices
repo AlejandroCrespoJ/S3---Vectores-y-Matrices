@@ -90,6 +90,12 @@ int main(){
         }
         printf("\n");
     }
+
+    printf("\n   Resultados por estudiante   \n");
+    for (i = 0; i < 5; i++) {
+        printf("Estudiante %d -> Promedio: %.2f | Mayor: %d | Menor: %d\n",
+               i + 1, promedioEstudiante[i], altaEstudiante[i], bajaEstudiante[i]);
+    }
     
 
 
