@@ -82,6 +82,11 @@ int main(){
 
     printf("\n     Tabla De Notas     \n");
     printf("Estudiante\tAsignatura 1\tAsignatura 2\tAsignatura 3\n");
+
+    for (i = 0; i < 5; i++) {
+        printf("%d\t\t", i + 1);
+        
+    }
     
 
 
