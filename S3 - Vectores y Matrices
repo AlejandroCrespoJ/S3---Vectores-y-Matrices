@@ -52,4 +52,7 @@ int main(){
             }
         }
 
+       promedioEstudiante[i] = suma / 3.0;
+    }
+
 
