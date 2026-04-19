@@ -15,6 +15,9 @@ int main(){
 
        printf("     Registro de Calificaciones     \n");
     printf("El programa registra 5 estudiantes y 3 asignaturas.\n\n");
+
+    for (i = 0; i < 5; i++) {
+        printf("Estudiante %d\n", i + 1);
 }
 
 
