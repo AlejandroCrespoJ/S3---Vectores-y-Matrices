@@ -17,7 +17,15 @@ int main(){
     printf("El programa registra 5 estudiantes y 3 asignaturas.\n\n");
 
     for (i = 0; i < 5; i++) {
-        printf("Estudiante %d\n", i + 1);
+        printf("Estudiante %d\n", i + 1);}
+        for (j = 0; j < 3; j++) {
+            do{
+                
+            }
+           
+
+        }
+
 }
 
 
