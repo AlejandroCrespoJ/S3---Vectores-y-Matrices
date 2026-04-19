@@ -21,7 +21,16 @@ int main(){
         for (j = 0; j < 3; j++) {
             do{
                 
-            }
+                printf("Ingrese la nota de la asignatura %d (0 a 10): ", j + 1);
+                scanf("%d", &notas[i][j]);
+
+                if (notas[i][j] < 0 || notas[i][j] > 10) {
+                    printf("Nota invalida. Debe ingresar un valor entre 0 y 10.\n");
+                }
+
+            } while (notas[i][j] < 0 || notas[i][j] > 10);
+
+            
            
 
         }
